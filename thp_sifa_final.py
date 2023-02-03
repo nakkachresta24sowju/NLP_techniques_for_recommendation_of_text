@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-pip install tqdm
+!pip install tqdm
 
 import streamlit as st
 import numpy as np
