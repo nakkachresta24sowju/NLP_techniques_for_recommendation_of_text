@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-!pip install streamlit
-!pip install ipython==7.9.0
-!pip install pyngrok
+pip install streamlit
+pip install ipython==7.9.0
+pip install pyngrok
 
 #Importing all necessary libraries 
 import streamlit as st
