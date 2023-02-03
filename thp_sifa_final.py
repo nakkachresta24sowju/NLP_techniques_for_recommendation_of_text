@@ -60,4 +60,20 @@ def explore_data(data):
 df = explore_data(data)
 
 
+# show data frame using head and tail in pandas.
+st.subheader('Preview Data')
+if st.checkbox('Top 5 rows'):
+    st.write(df.head())
+elif st.checkbox('Bottom 5 rows'):
+    st.write(df.tail())
+else:
+    st.write(df.head(10))
+
+st.subheader('Summary of Data frame')
+if st.checkbox("Show all column names"):
+    st.write(df.columns)
+elif st.checkbox("Statistical Summary"):
+    st.write(df.describe())
+else:
+    st.write(df.shape)
 
