@@ -7,11 +7,19 @@ Based on the dataset provided below, this a model to generate a short summary th
 Steps involved in this ML model:
   
   1.Understand the data using basic and descriptive statistics.
+  
   2.Pre-processing text data.
+  
   3.Text analytics involve sentence tokenization,removing stop words,filter tokens,sentence score for each text summary.
+  
   4.Metrics used in the model rough score for each data text summary.
+  
   5.NLTK email summary based on rough score of each text data.
+  
   6.Used Gensim implementation of TextRank extractive summarization algorithm.
+  
   7.NLTK sentiment analysis based on nltk email summary and textrank email summary.
+  
   8.After getting sentiment score make classification on text data.
+  
   9.Named entity recognition and keyword extraction to give better recommendations.
